@@ -1,6 +1,11 @@
 # Base OAuth2
 Base API using Spring Boot with OAuth2 Security.
 
+# Requirements
+
+Postgress 11.5-1
+  After postgress install, create an database with name "api".
+
 # Resources:
 <strong>OAuth2 login:</strong> localhost:8080/oauth/token<br/>
 To get an token, send a request with a Basic Auth: <br/> <br/>
